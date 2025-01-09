@@ -1,0 +1,298 @@
+/* For Small Screen Sizes */
+@media screen and (min-width: 300px) and (max-width: 780px) {
+    .event-description .content img {
+        position: absolute;
+        top: 23vw;
+        left: 10%;
+        width: 80%;
+        border-radius: 20px;
+    }
+
+     .event-details-container {
+        margin-top: 18%!important;
+      }
+}
+/* For Tablets */
+@media screen and (min-width: 781px) and (max-width: 959px) {
+    .event-description .content img {
+        position: absolute;
+        top: 24vw;
+        left: 10%;
+        width: 80%;
+        border-radius: 20px;
+    }
+
+      .event-details-container {
+        margin-top: 18%!important;
+      }
+}
+
+/*For Desktop */ 
+@media screen and (min-width: 959px) and (max-width: 1800px) {
+    .event-description .content img {
+        position: absolute;
+        top: 30vw;
+        left: 10%;
+        width: 80%;
+        border-radius: 20px;
+    }
+
+      .event-details-container {
+        margin-top: 22%!important;
+      }
+}
+
+/* Large Monitors */
+    @media screen and (min-width: 1800px) and (max-width: 2800px) {
+    .event-description .content img {
+        position: absolute;
+        top: 30vw;
+        left: 10%;
+        width: 80%;
+        border-radius: 20px;
+    }
+
+    .event-details-container {
+        margin-top:25%!important;
+    }
+}
+
+.speakers-wrapper .title {
+color: white!important    
+}
+/* Change Colors of Speaker Cards */
+.speaker-details{
+    background: white;
+}
+
+/* This part is for the session speakers section */ 
+.speaker-wrapper, 
+.speaker-wrapper * {
+    color: #000 !important;
+    box-shadow: none!important;
+}
+
+.speaker-wrapper, 
+.speaker-wrapper *:hover {
+    box-shadow: none;
+    transform: none!important;
+}
+
+
+.speaker-details {
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+   box-shadow: 0 .125rem .625rem #00000026; 
+   border-radius: 1.25rem;
+   padding: 1.3125rem 2rem;
+}
+
+.speaker-details:hover {
+   transform: scale(1.1);
+   box-shadow: 0 .25rem .875rem #00000040; 
+}
+
+
+/* Add a custom background to event details section */ 
+.event-details{
+    background: url(https://blackthorn.io/wp-content/uploads/2025/01/1-1-Mk2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+
+h1.event-name{
+    background: #ffffff5c;
+    border-radius: 1.25rem;
+    padding: 2%;
+    backdrop-filter:blur(2px);
+    
+}
+
+.event-details {
+    margin-top:-1px;
+}
+
+/*Remove Event Gradient */
+.linear-background {
+    display: none!important;
+}
+
+
+.section.featured-sponsors {
+    background: url(https://blackthorn.io/wp-content/uploads/2025/01/2-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.section.sessions {
+    background: url(https://blackthorn.io/wp-content/uploads/2025/01/2-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 9999!important;
+}
+
+.section.schedules {
+    background: url(https://blackthorn.io/wp-content/uploads/2025/01/2-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 9999!important;
+}
+
+.section.tickets {
+    background: url(https://blackthorn.io/wp-content/uploads/2025/01/2-4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 9999!important;
+}
+
+.section.venue {
+    background: url(https://blackthorn.io/wp-content/uploads/2025/01/2-4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 9999!important;
+}
+
+.sponsors.section {
+    background: url(https://blackthorn.io/wp-content/uploads/2025/01/2-4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 9999!important;
+}
+
+.speakers {
+    grid-column-gap: 3.25rem;
+}
+
+.full-profile-link {
+    border-radius: 1.25rem;
+    justify-content: center;
+    position: inherit;
+    color: var(--backgroundColor)!important;
+    border-style: solid;
+    margin-top:5%;
+    padding-bottom:2%!important;
+    padding-top:2%!important;
+}
+
+.full-profile-link:hover {
+    background-color: var(--backgroundColor)!important;
+    color: white!important;
+
+}
+
+.speaker-details-wrapper, 
+.speaker-details-wrapper * {
+    color: #fff !important;
+}
+
+.section.speakers {
+  background: transparent!important
+}
+
+
+section#speakers-section {
+background: rgb(35,94,164);
+background: linear-gradient(180deg, rgba(35,94,164,1) 1%, rgba(255,255,255,255) 100%);
+}
+
+
+section#faqs-section {
+    background: rgb(35,94,164);
+background: linear-gradient(180deg, rgba(35,94,164,1)1%, rgba(255,255,255,255) 100%);
+}
+
+.faq-wrapper {
+    background: white !important;
+}
+
+.sponsor-image, .sponsor-group, .session-card {
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+   border-radius: 1.25rem;
+   padding: 1.3125rem 2rem;
+}
+
+.sponsor-image, .sponsor-group:hover {
+   transform: scale(1.1);
+}
+
+
+.session-card:hover{
+       transform: scale(1.04);
+}
+
+.navbar-nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar-nav::before {
+    content:"";
+    padding: 20px;
+    width: 50px;
+    position: relative;
+    left: 5%;
+    transform: translateX(-50%);
+    height: 50px;
+    width: auto;
+    background-image: url('https://blackthorn.io/wp-content/uploads/2023/02/bt-favicon-96x96-1.png'); /* Your logo path */
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header.navbar.top-nav {
+    background: transparent;
+}
+
+button.more-right.ng-star-inserted {
+background: linear-gradient(90deg, transparent 0%, rgb(255, 255, 255) 100%);
+}
+
+button.more-left.ng-star-inserted {
+background: (90deg, transparent 0%, rgb(255, 255, 255) 100%);
+}
+
+
+
+body.primary-bg {
+    background: rgb(35,94,164);
+    background: linear-gradient(180deg, rgba(35,94,164,1) 1%, rgba(255,255,255,255) 100%);
+}
+
+.tickets-content .title , .step-title, .step-label{
+    color: white!important;
+}
+
+
+
+.step-icon {
+    color: var(--primaryColor)!important;
+}
