@@ -296,3 +296,27 @@ body.primary-bg {
 .step-icon {
     color: var(--primaryColor)!important;
 }
+
+h3.instruction {
+    width: 70%;
+    line-height: 1.8rem;
+    max-width: 800px;
+}
+
+
+.status-information {
+    display: inline-block;
+    width: 100%;
+}
+
+.status-information h1 {
+    line-height: 1.8rem!important;
+    display: flex;
+}
+
+@media screen and (max-width:410px) {
+    .status-information h1 {
+       width: 80%!important;
+    }
+}
+
