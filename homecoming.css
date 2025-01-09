@@ -320,3 +320,36 @@ h3.instruction {
     }
 }
 
+.event-description .content img {
+    pointer-events: none!important;
+}
+
+.register-button {
+    background-color: #F9A11B!important;
+}
+
+.section.schedules {
+    display: none !important;
+}
+
+.section.tickets {
+    display: none !important;
+}
+
+
+.section.faqs {
+    margin-top:5%!important;
+}
+
+.btn-wrapper .register-button {
+    padding-left: 50px!important;
+    padding-right: 50px!important;
+    font-size: 25px!important;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+    
+}
+
+.waitlist-ticket-content {
+    display: none !important;
+}
