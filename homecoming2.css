@@ -15,3 +15,12 @@
 button.get-ticket-button{
     width: 280px !important;
 }
+
+bt-payment div.input-field.full-width:nth-child(4) > label.field-label,
+bt-payment div.input-field.full-width:nth-child(4) > div.input-box {
+    display: none !important;
+}
+
+.checkout-button-container {
+    width: 400px;
+}
