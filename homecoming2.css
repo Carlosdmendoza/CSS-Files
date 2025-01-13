@@ -1,0 +1,14 @@
+:root {
+    --backgroundColor: #fde7c6!important;
+    --primaryColorOriginal: #235EA4!important;
+  }
+
+/*Hide FEatured Sponsors*/
+.section.featured-sponsors {
+    display: none !important;
+}
+
+/* Background Color for Attendeelinks*/
+body.primary-bg {
+    background: var(--backgroundColor);
+}
