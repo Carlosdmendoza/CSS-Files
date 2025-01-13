@@ -7,3 +7,11 @@
 .section.featured-sponsors {
     display: none !important;
 }
+
+.content {
+    line-height: normal;
+}
+
+button.get-ticket-button{
+    width: 280px !important;
+}
