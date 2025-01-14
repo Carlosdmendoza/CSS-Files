@@ -25,41 +25,6 @@ bt-payment div.input-field.full-width:nth-child(4) > div.input-box {
     width: 400px!important;
 }
 
-.event-details {
-    background: url(https://blackthorn.io/wp-content/uploads/2025/01/New-2025-RegPage-Background.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: -1px!important;
-}
-
-
-:root {
-    --backgroundColor: #fde7c6!important;
-    --primaryColorOriginal: #235EA4!important;
-  }
-
-/*Hide FEatured Sponsors*/
-.section.featured-sponsors {
-    display: none !important;
-}
-
-.content {
-    line-height: normal;
-}
-
-button.get-ticket-button{
-    width: 280px !important;
-}
-
-bt-payment div.input-field.full-width:nth-child(4) > label.field-label,
-bt-payment div.input-field.full-width:nth-child(4) > div.input-box {
-    display: none !important;
-}
-
-.checkout-button-container {
-    width: 400px!important;
-}
-
 h1.event-name {
     background: #ffffff5c;
     border-radius: 1.25rem;
