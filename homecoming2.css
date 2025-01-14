@@ -60,13 +60,6 @@ bt-payment div.input-field.full-width:nth-child(4) > div.input-box {
     width: 400px!important;
 }
 
-.event-details {
-    background: url(https://blackthorn.io/wp-content/uploads/2025/01/New-2025-RegPage-Background.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: -1px!important;
-}
-
 h1.event-name {
     background: #ffffff5c;
     border-radius: 1.25rem;
