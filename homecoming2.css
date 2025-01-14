@@ -44,3 +44,7 @@ bt-payment div.input-field.full-width:nth-child(4) > div.input-box {
 .event-details .btn-wrapper {
     padding-top: 1.8rem!important;
 }
+
+span.sidenav-option-menu__item__label {
+    white-space: break-spaces !important;
+}
