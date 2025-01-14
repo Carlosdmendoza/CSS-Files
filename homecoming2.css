@@ -24,3 +24,7 @@ bt-payment div.input-field.full-width:nth-child(4) > div.input-box {
 .checkout-button-container {
     width: 400px!important;
 }
+
+.ticket-description {
+    margin-bottom: 5%!important;
+}
