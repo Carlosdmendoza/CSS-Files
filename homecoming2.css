@@ -25,8 +25,10 @@ bt-payment div.input-field.full-width:nth-child(4) > div.input-box {
     width: 400px!important;
 }
 
-.ticket-description {
-    margin-bottom: 5%!important;
+
+.ticket-description
+{
+    max-height: fit-content!important;
 }
 
 @media (max-width: 59.9375rem) {
