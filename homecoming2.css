@@ -33,6 +33,14 @@ bt-payment div.input-field.full-width:nth-child(4) > div.input-box {
 
 @media (max-width: 59.9375rem) {
     .banner-image {
-          aspect-ratio: 2/1;
+         height:170px;
     }
+}
+
+.event-details {
+    padding-top: 1.6rem!important;
+}
+
+.event-details .btn-wrapper {
+    padding-top: 1.8rem!important;
 }
