@@ -44,3 +44,27 @@ bt-payment div.input-field.full-width:nth-child(4) > div.input-box {
 span.sidenav-option-menu__item__label {
     white-space: break-spaces !important;
 }
+
+bt-event-attendeelink-check-in {
+     display: flex !important;
+     flex-direction: column;
+ }
+.survey-container { 
+    width: 100%; 
+    order: 3; 
+}
+
+.container.product-item {
+     width: 100%; 
+     order: 1; 
+ }
+
+.session-registration-container {
+     width: 100%; 
+     order: 4; 
+ }
+
+.container:has(h3.title) {
+     width: 100%; 
+     order: 2;
+ }
